@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw
+}
+
+.card-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  gap: 5px;
+}
+
+.container button {
+  
+  font-weight: bold;
+  position: fixed;
+  bottom: 17px;
+  right: 24px;
+  transition: all 0.1s linear 0.1s;
+}
+
+.container button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px px 0px;
+  transform: scale(1.1);
+}
+
+.container button:not(:last-child) {
+  margin-right:130px;
+}
+
+
+@tailwind base;
+
+@tailwind utilities;
+
+@tailwind base;
+
+@tailwind utilities;

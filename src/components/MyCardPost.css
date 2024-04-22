@@ -1,0 +1,32 @@
+.card {
+    
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    
+  }
+  
+  .card img {
+    border-radius: 8px 8px 0 0;
+    width: 250px;
+    height: 200px;
+  }
+  
+  .card button {
+    
+    font-weight: bold;
+    position: sticky;
+    bottom: 5px;
+    right: 24px;
+    transition: all 0.1s linear 0.1s;
+  }
+  
+  .card button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 5px px 0px;
+    transform: scale(1.1);
+  }
+  
+  .card button:not(:last-child) {
+    margin-right:130px;
+  }
